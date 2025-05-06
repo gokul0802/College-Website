@@ -1,0 +1,81 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+.pimg1{
+    background-image: url(maha.jpeg);
+    min-height: 100%;   
+}
+.pimg2{
+    background-image: url(shiva.jpg) ;
+    min-height: 100%;
+}
+.pimg1,
+.pimg2
+{
+   
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.ptext{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.textBg{
+    color: #fff;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background: transparent;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+  .section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .text{
+    padding: 20px;
+    background: transparent;
+    color: #fff;
+    
+  }
+  .image{
+    display: flex;
+  }
+  
+.image img{
+   width: 500px;
+}
+.image video{
+    padding: 10px;
+    margin-top: 00px;
+}
+
+
+
+

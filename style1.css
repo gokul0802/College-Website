@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("wonderlane-6zlgM-GUd6I-unsplash.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+  display: flex;
+  margin-top: 00px;
+  margin-left: 00px;
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: flex;
+   
+}
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }  
+ .list ul li{
+    padding: 30px;
+    list-style: none;
+ } 
+ .list ul li a{
+  text-decoration: none;
+  color: white;
+ }
+ .list ul:hover li a{
+  color: gold;
+ }
+ .list ul:hover li a:not(:hover){
+  color: white;
+  opacity: 0.4;
+  filter: blur(1px);
+ } 
+
+ .wrapper {
+  text-align: center;
+  width: 20px;
+}
+
+.search {
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50px;
+  transition: 0.4s;
+  margin-top: 27px;
+}
+
+.search:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.search:hover input {
+  max-width: 120px;
+}
+
+.search input {
+  background: transparent;
+  border: 0;
+  max-width: 0;
+  padding: 0;
+  /* text-indent: 12px; */
+  color: #f9f9f9;
+  font-family: "Poppins";
+  outline: none;
+  transition: 0.4s;
+}
+
+.search input::placeholder {
+  color: rgba(255, 255, 255, 0.375);
+}
+
+.search span {
+  display: grid;
+  place-items: center;
+  width: 15px;
+  height: 15x;
+  background-color: white;
+  color: #f9f9f9;
+  border-radius: inherit;
+  font-size: 24px;
+  pointer-events: none;
+}
+
+ .button{
+    margin-top: 28px;
+    margin-left: 310px;
+  }
+
+  .button button{
+    border: none;
+    background-color: white;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  width: 140px; 
+  height: 30px;
+  font-size: 400;
+  
+ }
+ .button button a{
+  text-decoration: none;
+  color: black;
+ }
+
+ .button button:hover{
+  transition: 1s;
+  background-color: gold;
+ }
+
+ .logo img{
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 200px;
+     border-radius: 10px;
+ }   
+ .main{
+    color: white;
+    margin-top: 60px;
+    margin-left: 400px;
+    font-family: 'Poppins', sans-serif;
+ } 
+ .main h3{
+    padding: 20px;
+ }
+   .main_button{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 200px;
+   }
+   #butt1{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt2{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px; 
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+  
+   }
+   #butt2 a{
+    text-decoration: none;
+    color: black;
+
+   }
+  
+   
+   #butt3{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt4{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt5{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt6{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt7{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt8{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+
+   #butt9{
+    padding: 15px;
+    margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+   }
+   #butt1:hover{
+
+    background-color: yellow;
+    transition: 1s;
+    }
+
+    #butt2:hover{
+
+      background-color: pink;
+      transition: 1s;
+      }
+
+      #butt3:hover{
+
+        background-color: purple;
+        transition: 1s;
+        }
+
+        #butt4:hover{
+
+          background-color: green;
+          transition: 1s;
+          }
+
+          #butt5:hover{
+
+            background-color: yellowgreen;
+            transition: 1s;
+            }
+
+            #butt6:hover{
+
+              background-color: maroon;
+              transition: 1s;
+              }
+
+
+              #butt7:hover{
+
+                background-color: rebeccapurple;
+                transition: 1s;
+                }
+
+                #butt8:hover{
+
+                  background-color: violet;
+                  transition: 1s;
+                  }
+
+                  #butt9:hover{
+
+                    background-color: chartreuse;
+                    transition: 1s;
+                    }
+
+     
+   
+ 
+  
